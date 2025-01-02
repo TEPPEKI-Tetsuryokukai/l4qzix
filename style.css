@@ -1,0 +1,70 @@
+body {
+    font-family: 'MS Gothic', 'MS Sans Serif', Arial, sans-serif;
+    background-color: #008080;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+.window {
+    border: 2px solid #000;
+    background-color: #C0C0C0;
+    box-shadow: 4px 4px 0 #808080;
+    width: 600px;
+    margin: 50px auto;
+}
+.title-bar {
+    background-color: #000080;
+    color: #fff;
+    padding: 4px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-bar button {
+    background-color: #C0C0C0;
+    border: 1px solid #000;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    font-family: 'MS Gothic', 'MS Sans Serif', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    padding: 0;
+}
+.title-bar button.close {
+    color: black;
+}
+.title-bar button.minimize {
+    color: black;
+}
+.title-bar button.maximize {
+    color: black;
+}
+.menu-bar {
+    background-color: #C0C0C0;
+    border-bottom: 2px solid #808080;
+    padding: 2px;
+    font-size: 12px;
+}
+.menu-bar span {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.menu-bar span:hover {
+    text-decoration: underline;
+}
+.content {
+    padding: 10px;
+    background-color: #FFF;
+    font-size: 14px;
+    line-height: 1.5;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #C0C0C0;
+    border-top: 2px solid #808080;
+    font-size: 12px;
+}
