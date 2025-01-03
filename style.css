@@ -20,13 +20,18 @@ body {
     z-index: 1000;
 }
 .start-button {
+    background-image: url("https://cdn.discordapp.com/attachments/1042963739646906490/1324589189005705287/unnamed_1.jpg?ex=6778b350&is=677761d0&hm=a5014d1655f5e4a44e631ccee97ad3edd39d5808b19d12b0b757aaab2269a9d3&");
     background-color: #000080;
     color: white;
     border: 2px solid #000;
     padding: 2px 10px;
     margin-right: 10px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.demo-img{
+   max-width: px;
 }
 .window {
     border: 2px solid #000;
@@ -34,6 +39,7 @@ body {
     box-shadow: 4px 4px 0 #808080;
     width: 600px;
     margin: 50px auto;
+    margin-top: 80px;
 }
 .taskbar-items span {
     margin-right: 20px;
@@ -42,6 +48,12 @@ body {
 }
 .taskbar-items span:hover {
     text-decoration: underline;
+}
+.clock {
+    margin-right: 10px;
+    font-size: 14px;
+    font-family: 'MS Gothic', 'MS Sans Serif', Arial, sans-serif;
+    margin-left: auto; /* Aligns clock to the right */
 }
 .title-bar {
     background-color: #000080;
