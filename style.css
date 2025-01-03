@@ -1,3 +1,4 @@
+
 body {
     font-family: 'MS Gothic';
     background-color: #ee8ee2;
@@ -104,14 +105,12 @@ body {
     font-size: 14px;
     line-height: 1.5;
     overflow: auto;
-
     display: flex;
-
-    justify-content: left;
-
     align-items: top;
-
     height: 100%;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
 }
 footer {
     text-align: center;
