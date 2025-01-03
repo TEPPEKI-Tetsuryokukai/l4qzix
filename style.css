@@ -37,9 +37,12 @@ body {
     border: 2px solid #000;
     background-color: #C0C0C0;
     box-shadow: 4px 4px 0 #808080;
-    width: 600px;
+    width: 800px;
+    height: 600px;
     margin: 50px auto;
-    margin-top: 80px;
+    margin-top: 80px; /* Adjusted for taskbar */
+    display: flex;
+    flex-direction: column;
 }
 .taskbar-items span {
     margin-right: 20px;
@@ -97,6 +100,15 @@ body {
     background-color: #FFF;
     font-size: 14px;
     line-height: 1.5;
+    overflow: auto;
+
+    display: flex;
+
+    justify-content: left;
+
+    align-items: top;
+
+    height: 100%;
 }
 footer {
     text-align: center;
