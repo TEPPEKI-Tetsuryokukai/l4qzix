@@ -95,6 +95,9 @@ body {
 .menu-bar span:hover {
     text-decoration: underline;
 }
+.aboutme{
+    color: black;
+}
 .content {
     padding: 10px;
     background-color: #FFF;
