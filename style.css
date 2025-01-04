@@ -1,7 +1,9 @@
-
 body {
     font-family: 'MS Gothic';
-    background-color: #ee8ee2;
+    background-image: url('https://media.discordapp.net/attachments/1042963739646906490/1310633200590127164/Gcl-0HSWYAAYQGf.png?ex=677a0109&is=6778af89&hm=635ad8ec363aa5effd05442f072694b9b5b8e0fcc331300ae27516fe7daacd0f&=&format=webp&quality=lossless&width=1100&height=618'); /* 背景画像のパス */
+    background-size: cover; /* 画像を画面全体に拡大縮小 */
+    background-repeat: no-repeat; /* 画像を繰り返さない */
+    background-position: center center; /* 画像を中央に配置 */
     margin: 0;
     padding: 0;
     color: #000;
