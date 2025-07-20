@@ -7,6 +7,7 @@ function updateClock() {
 
 setInterval(updateClock, 1000);
 window.onload = updateClock;
+
 function openPopup(title, description, link) {
     const popup = document.getElementById("popup");
     document.getElementById("popup-title").textContent = title;
