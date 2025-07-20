@@ -28,3 +28,13 @@ function openPopup(title, description, link) {
     popup.style.transform = "translate(-50%, -50%) scale(1)";
     popup.style.opacity = "1";
 }
+
+function closePopup() {
+    const popup = document.getElementById("popup");
+    popup.style.opacity = "0";
+    popup.style.transform = "translate(-50%, -50%) scale(0.8)";
+
+    setTimeout(() => {
+        popup.style.display = "none";
+    }, 200); // トランジションと同じ時間
+}
