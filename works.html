@@ -46,9 +46,10 @@
         </div>
         <script>
             function showMath() {
-                const container = document.getElementById('mathContainer');
-                container.innerHTML = '\\[ \\rm \\mbox{指定したオプションで関数の代入ドリルをランダム生成\LaTeXで数式を描画します} \\]'; // LaTeX形式で代入
-                MathJax.typesetPromise([container]); // この要素だけMathJax再描画
+                const box = document.getElementById('logoBox');
+                // 改行には <br> を使う
+                box.innerHTML = '\\(指定したオプションで関数の代入ドリルをランダム生成 \\)<br>\\(\\rm\\LaTeXで数式を描画します \\)';
+                MathJax.typesetPromise([box]);
             }
         </script>
         <!-- 必要に応じて追加 -->
