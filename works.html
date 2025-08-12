@@ -40,10 +40,17 @@
             <h2>URL短縮</h2>
             <p>短縮的</p>
         </div>
-        <div class="work-card" onclick="openPopup('関数計算ドリル', '指定したオプションで関数の代入ドリルをランダム生成。\[ \rm{\LaTeX} \]で数式を描画しています', 'https://math.l4qzix.f5.si/')">
+        <div class="work-card" onclick="openPopup('関数計算ドリル', showMath(), 'https://math.l4qzix.f5.si/')">
             <h2>関数計算ドリル</h2>
             <p>速く計算しろ</p>
         </div>
+        <script>
+            function showMath() {
+                const container = document.getElementById('mathContainer');
+                container.innerHTML = '\\[ \\rm \\mbox{指定したオプションで関数の代入ドリルをランダム生成\LaTeXで数式を描画します} \\]'; // LaTeX形式で代入
+                MathJax.typesetPromise([container]); // この要素だけMathJax再描画
+            }
+        </script>
         <!-- 必要に応じて追加 -->
     </div>
 </div>
