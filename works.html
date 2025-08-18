@@ -40,18 +40,14 @@
             <h2>URL短縮</h2>
             <p>短縮的</p>
         </div>
-        <div class="work-card" onclick="openPopup('関数計算ドリル', showMath(), 'https://math.l4qzix.f5.si/')">
+        <div class="work-card" onclick="openPopup('関数計算ドリル','速く計算しろ' , 'https://math.l4qzix.f5.si/')">
             <h2>関数計算ドリル</h2>
             <p>速く計算しろ</p>
         </div>
-        <script>
-            function showMath() {
-                const box = document.getElementById('logoBox');
-                // 改行には <br> を使う
-                box.innerHTML = '\\(指定したオプションで関数の代入ドリルをランダム生成 \\)<br>\\(\\rm\\LaTeXで数式を描画します \\)';
-                MathJax.typesetPromise([box]);
-            }
-        </script>
+        <div class="work-card" onclick="openPopup('メディアプレーヤー', 'そのまま', 'https://player.l4qzix.f5.si/')">
+            <h2>再生します</h2>
+            <p>はい</p>
+        </div>
         <!-- 必要に応じて追加 -->
     </div>
 </div>
