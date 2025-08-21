@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     color: #000;
+}
 body {
     font-family: 'MS Gothic';
     background-image: url('background.png'); /* 背景画像のパス */
@@ -234,7 +235,7 @@ footer {
     }
 }
 
-}
+
 .taskbar {
     background-color: #C0C0C0;
     border-bottom: 2px solid #808080;
@@ -326,6 +327,9 @@ footer {
     text-decoration: underline;
 }
 .aboutme{
+    color: black;
+}
+.image{
     color: black;
 }
 .content {
