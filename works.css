@@ -34,16 +34,13 @@ body {
     z-index: 1000;
 }
 .start-button {
-    background-image: url("start.jpg");
-    background-color: #000080;
-    color: white;
-    border: 2px solid #000;
-    padding: 2px 10px;
-    margin-right: 10px;
-    cursor: pointer;
-    font-size: 12px;
-    background-repeat:no-repeat;
+  width: 58px;   /* start.jpg の実際のサイズ */
+  height: 22px;
+  background: url("start.jpg") no-repeat center/contain;
+  cursor: pointer;
 }
+
+
 
 .demo-img{
    max-width: px;
