@@ -31,6 +31,7 @@ body {
     margin-right: 10px;
     cursor: pointer;
     font-size: 12px;
+    background-repeat:no-repeat;
 }
 
 .demo-img{
